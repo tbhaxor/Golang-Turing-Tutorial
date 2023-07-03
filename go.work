@@ -1,4 +1,8 @@
 go 1.20
 
-use ./funcname
-use ./helloworld
+
+use (
+    ./funcname
+	./datatypes
+    ./helloworld
+)
