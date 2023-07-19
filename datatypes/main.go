@@ -5,4 +5,7 @@ func main() {
 	printVariables()
 	runGC()
 	pointers()
+	arrays()
+	slices()
+	hashMaps()
 }
