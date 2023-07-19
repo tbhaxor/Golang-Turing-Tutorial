@@ -2,6 +2,11 @@ package otherpackage
 
 import "fmt"
 
+// called before init of main package
+func init() {
+	fmt.Println("Initialization function for otherpackage")
+}
+
 // greetname will print hello to name
 func greetname(name string) {
 	fmt.Printf("Hello, %s\n", name)
