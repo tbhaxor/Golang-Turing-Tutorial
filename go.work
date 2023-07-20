@@ -4,5 +4,6 @@ use (
 	./datatypes
 	./funcname
 	./helloworld
+	./polymorphism
 	./structs
 )
