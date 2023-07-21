@@ -5,6 +5,7 @@ use (
 	./deferfunc
 	./funcname
 	./helloworld
+	./panic
 	./polymorphism
 	./structs
 )
