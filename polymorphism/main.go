@@ -71,14 +71,6 @@ func main() {
 	fmt.Println()
 	getTypeDetails(shapes...)
 
-	switch variable.(type) {
-	case type1:
-		// Code to execute if the variable is of type1
-	case type2:
-		// Code to execute if the variable is of type2
-	default:
-		// Code to execute if the variable is not of type1 or type2
-	}
 	// you will get compiler error if interface is not implemented
 	// cannot use &Cube{…} (variable of type *Cube) as Shape2D value in argument to
 	// print2DShapeDetails: *Cube does not implement Shape2D (missing method Area)
