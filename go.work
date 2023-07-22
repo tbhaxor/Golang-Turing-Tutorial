@@ -4,6 +4,7 @@ use (
 	./datatypes
 	./deferfunc
 	./funcname
+	./generics
 	./helloworld
 	./panic
 	./polymorphism
