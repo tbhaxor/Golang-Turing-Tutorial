@@ -9,4 +9,5 @@ use (
 	./panic
 	./polymorphism
 	./structs
+	./waitgroups
 )
