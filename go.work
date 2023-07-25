@@ -9,6 +9,7 @@ use (
 	./helloworld
 	./panic
 	./polymorphism
+	./racingchannels
 	./structs
 	./waitgroups
 )
